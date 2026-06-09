@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subhashri V U | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  
+
+  <section class="welcome-screen" id="welcomeScreen" aria-label="Welcome intro">
+    <div class="welcome-screen__glow"></div>
+    <div class="welcome-screen__content">
+      <p class="welcome-screen__eyebrow">Welcome</p>
+      <h1 class="welcome-screen__title">Welcome to my portfolio</h1>
+      <p class="welcome-screen__subtitle">Hello, I'm Subhashri V U</p>
+      <p class="welcome-screen__description">B.Tech IT Student and aspiring Full Stack Developer</p>
+    </div>
+  </section>
+
+  <nav class="navbar">
+    <div class="nav-logo">SUBHASHRI</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-intro fade-up">Welcome to my portfolio</p>
+      <p class="hero-greeting fade-up delay-1">Hello, I'm</p>
+      <h1 class="hero-name fade-up delay-2">Subhashri V U</h1>
+      <p class="hero-aboutline fade-up delay-3">About Me</p>
+      <p class="hero-title fade-up delay-4">B.Tech IT Student &amp; Aspiring Full Stack Developer</p>
+      <p class="hero-tagline fade-up delay-5">Building responsive, user-focused web experiences with a strong eye for modern UI design.</p>
+      <div class="hero-btns fade-up delay-5">
+        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+        <a href="#about" class="btn btn-outline">Know More</a>
+      </div>
+      <div class="hero-socials fade-up delay-5">
+        <a href="mailto:vusubhashri@gmail.com" title="Gmail"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/subhashri-vu" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/subhashri-vu" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <div class="hero-visual fade-in delay-3">
+      <div class="avatar-ring">
+        <div class="avatar-mark" aria-hidden="true">
+          <canvas class="code-rain" aria-hidden="true"></canvas>
+          <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+            <defs>
+              <linearGradient id="g1" x1="0%" x2="100%" y1="0%" y2="100%">
+                <stop offset="0%" stop-color="#fff" stop-opacity="0.18" />
+                <stop offset="100%" stop-color="#000" stop-opacity="0.06" />
+              </linearGradient>
+            </defs>
+            <rect x="10" y="18" width="100" height="66" rx="8" fill="url(#g1)" opacity="0.18" />
+            <rect x="14" y="22" width="92" height="58" rx="6" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="2"/>
+            <rect x="28" y="44" width="64" height="24" rx="4" fill="none" stroke="rgba(255,255,255,0.12)" />
+            <g class="code" transform="translate(34,56)" fill="none" stroke="rgba(255,255,255,0.96)" stroke-width="3" stroke-linecap="round">
+              <path class="bracket-left" d="M6 12 L0 6 L6 0" />
+              <path class="slash" d="M22 0 L10 24" />
+              <path class="bracket-right" d="M38 0 L44 6 L38 12" />
+            </g>
+            <rect x="0" y="92" width="120" height="6" rx="3" fill="rgba(255,255,255,0.06)" />
+          </svg>
+        </div>
+      </div>
+      <div class="orbit orbit-1"></div>
+      <div class="orbit orbit-2"></div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I'm an aspiring and passionate <strong>Full Stack Developer</strong> with a strong eye for modern UI design and user-focused web experiences. I enjoy building responsive and interactive applications while continuously exploring new technologies.</p>
+          <p>Currently pursuing my <strong>Bachelor of Information Technology</strong> at SRM University Ramapuram Campus, driven by creativity, curiosity, and a genuine love for building things on the web.</p>
+        </div>
+        <div class="about-cards reveal delay-1">
+          <div class="about-card">
+            <i class="fas fa-paint-brush"></i>
+            <h4>Creative Problem Solving</h4>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-mobile-alt"></i>
+            <h4>Responsive Web Design</h4>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-robot"></i>
+            <h4>Artificial Intelligence</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skills-block reveal">
+          <h3 class="skills-block-title"><i class="fas fa-code"></i> Technical Skills</h3>
+          <div class="skill-icons" aria-label="Coding language icons">
+            <span class="skill-icon icon-html" style="--i: 0s;" title="HTML5"><i class="fab fa-html5"></i></span>
+            <span class="skill-icon icon-css" style="--i: 0.12s;" title="CSS3"><i class="fab fa-css3-alt"></i></span>
+            <span class="skill-icon icon-js" style="--i: 0.24s;" title="JavaScript"><i class="fab fa-js"></i></span>
+            <span class="skill-icon icon-python" style="--i: 0.36s;" title="Python"><i class="fab fa-python"></i></span>
+            <span class="skill-icon icon-java" style="--i: 0.48s;" title="Java"><i class="fab fa-java"></i></span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fas fa-palette"></i> UI/UX Development</span>
+            <span class="skill-tag"><i class="fas fa-wand-magic-sparkles"></i> Prompt Engineering</span>
+            <span class="skill-tag"><i class="fas fa-sitemap"></i> Web Page Structuring</span>
+            <span class="skill-tag"><i class="fas fa-database"></i> MongoDB</span>
+            <span class="skill-tag"><i class="fas fa-code"></i> HTML &amp; CSS</span>
+            <span class="skill-tag"><i class="fas fa-layer-group"></i> Full Stack Dev</span>
+          </div>
+        </div>
+        <div class="skills-block reveal delay-1">
+          <h3 class="skills-block-title"><i class="fas fa-brain"></i> Soft Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag soft"><i class="fas fa-bolt"></i> Fast Learning Ability</span>
+            <span class="skill-tag soft"><i class="fas fa-comments"></i> Communication Skills</span>
+            <span class="skill-tag soft"><i class="fas fa-chart-line"></i> Analytical Thinking</span>
+            <span class="skill-tag soft"><i class="fas fa-people-group"></i> Team Collaboration</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-badge"><i class="fas fa-calculator"></i></div>
+          <div class="project-content">
+            <p class="project-kicker">CodeAlpha Project</p>
+            <h3>Age Calculator</h3>
+            <p class="project-desc">A clean age calculator project that takes a birth date and calculates the exact age with a simple, user-friendly interface.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/subhashri11/CodeAlpha_age-calculator" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> View Repository</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal delay-1">
+          <div class="project-badge"><i class="fas fa-cake-candles"></i></div>
+          <div class="project-content">
+            <p class="project-kicker">Smurfberry Bakery</p>
+            <h3>Winter Fantasy Bakery</h3>
+            <p class="project-desc">A magical winter-themed bakery landing page with cozy Smurfberry desserts, snowflakes, and sparkling frosting effects.</p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>Vite</span>
+              <span>UI Animation</span>
+            </div>
+            <div class="project-links">
+              <a href="file:///c:/Users/anish%20raj/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/9EEB6F8C73315B6CFD80B9CD42FE596A03371128/transfers/2026-22/smurfberry-bakery.zip" target="_blank" rel="noreferrer"><i class="fas fa-file-zipper"></i> Open Archive</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've Done</span>
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-icon"><i class="fas fa-trophy"></i></div>
+            <h3>Smart India Hackathon (SIH) 2025</h3>
+            <p class="timeline-sub">Internal Participant &middot; 2025</p>
+            <p>Participated in AI technology focused internal Smart India Hackathon, contributing innovative solutions to real-world problems.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-icon"><i class="fab fa-git-alt"></i></div>
+            <h3>GIT-GUD Design &amp; Deploy</h3>
+            <p class="timeline-sub">Project Work</p>
+            <p>Worked on GIT-GUD design &amp; deploy concepts, gaining hands-on experience with version control workflows and deployment pipelines.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Background</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="edu-card reveal">
+        <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+        <div class="edu-info">
+          <h3>Bachelor of Information Technology</h3>
+          <p class="edu-school">SRM University, Ramapuram Campus</p>
+          <p class="edu-desc">Pursuing B.Tech in Information Technology, focusing on full stack development, AI, and modern web technologies.</p>
+        </div>
+        <div class="edu-badge">B.Tech IT</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Contact</h2>
+      </div>
+      <div class="contact-grid">
+        <a href="mailto:vusubhashri@gmail.com" class="contact-card reveal">
+          <div class="contact-icon gmail"><i class="fas fa-envelope"></i></div>
+          <h4>Gmail</h4>
+          <p>vusubhashri@gmail.com</p>
+        </a>
+        <a href="https://www.linkedin.com/in/subhashri-vu" target="_blank" class="contact-card reveal delay-1">
+          <div class="contact-icon linkedin"><i class="fab fa-linkedin-in"></i></div>
+          <h4>LinkedIn</h4>
+          <p>Subhashri V U</p>
+        </a>
+        <a href="https://github.com/subhashri-vu" target="_blank" class="contact-card reveal delay-2">
+          <div class="contact-icon github"><i class="fab fa-github"></i></div>
+          <h4>GitHub</h4>
+          <p>subhashri-vu</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Designed &amp; Built by <span>Subhashri V U</span> &middot; 2025</p>
+    <p class="footer-sub">B.Tech IT Student &middot; SRM University</p>
+  </footer>
+
+  <script>
+    const welcomeScreen = document.getElementById('welcomeScreen');
+    const body = document.body;
+
+    function hideWelcomeScreen() {
+      welcomeScreen.classList.add('hide');
+      body.classList.remove('welcome-active');
+      sessionStorage.setItem('portfolioWelcomeSeen', 'true');
+    }
+
+    const welcomeSeen = sessionStorage.getItem('portfolioWelcomeSeen') === 'true';
+    if (welcomeSeen) {
+      welcomeScreen.classList.add('hide');
+      body.classList.remove('welcome-active');
+    } else {
+      body.classList.add('welcome-active');
+      window.addEventListener('load', () => {
+        setTimeout(hideWelcomeScreen, 2500);
+      });
+      welcomeScreen.addEventListener('click', hideWelcomeScreen);
+      window.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') hideWelcomeScreen();
+      });
+    }
+
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.15 });
+    reveals.forEach(el => observer.observe(el));
+
+    window.addEventListener('scroll', () => {
+      document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      hamburger.classList.toggle('active');
+    });
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        hamburger.classList.remove('active');
+      });
+    });
+
+    // Code rain inside avatar mark (rectangular, denser streams)
+    (function initCodeRain(){
+      try {
+        const canvas = document.querySelector('.avatar-mark .code-rain');
+        if (!canvas) return;
+        const ctx = canvas.getContext('2d');
+        let width = 0, height = 0, fontSize = 10, columns = 0, drops = [];
+        const chars = 'const let var function return if else for while switch case break true false null undefined 0123456789{}[]()<>+=-_*%/;:,.-_#@abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        const dpr = window.devicePixelRatio || 1;
+
+      function resize(){
+        const rect = canvas.getBoundingClientRect();
+        width = Math.max(120, rect.width); height = Math.max(120, rect.height);
+        canvas.width = Math.floor(width * dpr);
+        canvas.height = Math.floor(height * dpr);
+        canvas.style.width = width + 'px';
+        canvas.style.height = height + 'px';
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        fontSize = Math.max(8, Math.floor(width / 18));
+        columns = Math.floor(width / (fontSize * 0.9)) || 1;
+        drops = new Array(columns).fill(0).map(() => Math.random() * height / fontSize - 10);
+        ctx.textBaseline = 'top';
+      }
+
+      function draw(){
+        // stronger trail to make distinct vertical streams
+        ctx.fillStyle = 'rgba(0,0,0,0.12)';
+        ctx.fillRect(0, 0, width, height);
+
+        ctx.font = fontSize + 'px monospace';
+        for (let i = 0; i < columns; i++){
+          const char = chars.charAt(Math.floor(Math.random() * chars.length));
+          const x = Math.floor(i * (fontSize * 0.9));
+          const y = Math.floor(drops[i] * fontSize);
+
+          // brighter head
+          ctx.fillStyle = 'rgba(255,255,255,0.95)';
+          ctx.fillText(char, x, y);
+
+          // trailing slightly colored
+          ctx.fillStyle = 'rgba(230,194,199,0.9)';
+          ctx.fillText(char, x, y - Math.floor(fontSize * 0.6));
+
+          if ((y > height) && Math.random() > 0.96) drops[i] = 0;
+          drops[i] += Math.random() * 1.6 + 0.6;
+        }
+        requestAnimationFrame(draw);
+      }
+
+      } catch (e) {
+        console.error('Code rain init failed:', e);
+      }
+    })();
+    // site-wide code rain removed — effect now confined to avatar area
+  </script>
+</body>
+</html>
